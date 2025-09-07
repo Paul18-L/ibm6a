@@ -137,65 +137,44 @@
     </header>
 
     <main class="content-section" id="main-content">
-        </main>
+    </main>
     
     <script>
         const userStoriesHTML = `
             <h2>Historias de usuario</h2>
             <div class="cards-grid">
-                <div class="card card-user-story" style="background-color: lightblue;">
-                    <div class="card-header">Alex Franco</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> estudiante,</p>
-                        <p><span class="keyword">Quiero</span> poder ver mi historial de compras,</p>
-                        <p><span class="keyword">Para</span> llevar un registro de mis gastos.</p>
-                    </div>
-                </div>
+                <!--Paul Lopez-->
+                <div class="card card-user-story"><div class="card-header">Paul Lopez1</div><div class="card-body"><p><span class="keyword">Como</span> estudiante,</p><p><span class="keyword">Quiero</span> acceder a los materiales de clase en línea,</p><p><span class="keyword">Para</span> estudiar desde cualquier lugar.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Paul Lopez2</div><div class="card-body"><p><span class="keyword">Como</span> usuario,</p><p><span class="keyword">Quiero</span> recibir notificaciones de descuentos,</p><p><span class="keyword">Para</span> aprovechar promociones universitarias.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Paul Lopez3</div><div class="card-body"><p><span class="keyword">Como</span> cliente frecuente,</p><p><span class="keyword">Quiero</span> generar reportes de mis compras,</p><p><span class="keyword">Para</span> analizar mis hábitos de consumo.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Paul Lopez4</div><div class="card-body"><p><span class="keyword">Como</span> estudiante,</p><p><span class="keyword">Quiero</span> programar recordatorios de pago,</p><p><span class="keyword">Para</span> no olvidar fechas importantes.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Paul Lopez5</div><div class="card-body"><p><span class="keyword">Como</span> usuario,</p><p><span class="keyword">Quiero</span> recibir confirmación por email de mis pedidos,</p><p><span class="keyword">Para</span> tener un respaldo de mis transacciones.</p></div></div>
 
-                <div class="card card-user-story">
-                    <div class="card-header">María García</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> usuario registrado,</p>
-                        <p><span class="keyword">Quiero</span> restablecer mi contraseña,</p>
-                        <p><span class="keyword">Para</span> recuperar el acceso a mi cuenta.</p>
-                    </div>
-                </div>
+                <!-- Carlos Martinez-->
+                <div class="card card-user-story"><div class="card-header">Carlos Martinez1</div><div class="card-body"><p><span class="keyword">Como</span> administrador,</p><p><span class="keyword">Quiero</span> revisar estadísticas de ventas,</p><p><span class="keyword">Para</span> tomar decisiones informadas.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Carlos Martinez2</div><div class="card-body"><p><span class="keyword">Como</span> encargado de inventario,</p><p><span class="keyword">Quiero</span> recibir alertas de stock bajo,</p><p><span class="keyword">Para</span> reponer productos a tiempo.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Carlos Martinez3</div><div class="card-body"><p><span class="keyword">Como</span> administrador,</p><p><span class="keyword">Quiero</span> gestionar roles de usuarios,</p><p><span class="keyword">Para</span> mantener la seguridad del sistema.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Carlos Martinez4</div><div class="card-body"><p><span class="keyword">Como</span> supervisor,</p><p><span class="keyword">Quiero</span> monitorear el historial de actividad,</p><p><span class="keyword">Para</span> detectar irregularidades a tiempo.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Carlos Martinez5</div><div class="card-body"><p><span class="keyword">Como</span> administrador,</p><p><span class="keyword">Quiero</span> configurar promociones especiales,</p><p><span class="keyword">Para</span> aumentar las ventas de temporada.</p></div></div>
 
-                <div class="card card-user-story">
-                    <div class="card-header">Carlos López</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> administrador,</p>
-                        <p><span class="keyword">Quiero</span> agregar nuevos productos al inventario,</p>
-                        <p><span class="keyword">Para</span> mantener la tienda actualizada.</p>
-                    </div>
-                </div>
-                
-                <div class="card card-user-story">
-                    <div class="card-header">Ana Torres</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> visitante del sitio,</p>
-                        <p><span class="keyword">Quiero</span> buscar productos por categoría,</p>
-                        <p><span class="keyword">Para</span> encontrar lo que necesito más rápido.</p>
-                    </div>
-                </div>
-
-                <div class="card card-user-story">
-                    <div class="card-header">Pedro Gómez</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> cliente,</p>
-                        <p><span class="keyword">Quiero</span> dejar una reseña en un producto,</p>
-                        <p><span class="keyword">Para</span> compartir mi opinión con otros usuarios.</p>
-                    </div>
-                </div>
-                
-                <div class="card card-user-story">
-                    <div class="card-header">Laura Díaz</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> desarrollador,</p>
-                        <p><span class="keyword">Quiero</span> una API de pagos segura,</p>
-                        <p><span class="keyword">Para</span> procesar transacciones de manera confiable.</p>
-                    </div>
-                </div>
+                <!-- Los demas -->
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> visitante,</p><p><span class="keyword">Quiero</span> filtrar productos por precio,</p><p><span class="keyword">Para</span> encontrar opciones dentro de mi presupuesto.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> cliente,</p><p><span class="keyword">Quiero</span> recibir recomendaciones personalizadas,</p><p><span class="keyword">Para</span> descubrir productos de mi interés.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> usuario,</p><p><span class="keyword">Quiero</span> ver las reseñas de otros usuarios,</p><p><span class="keyword">Para</span> tomar decisiones informadas antes de comprar.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> visitante,</p><p><span class="keyword">Quiero</span> registrarme rápidamente,</p><p><span class="keyword">Para</span> poder hacer compras sin complicaciones.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> estudiante,</p><p><span class="keyword">Quiero</span> acceder al historial académico,</p><p><span class="keyword">Para</span> comparar mi desempeño con mis compras.</p></div></div>
+  
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> usuaria,</p><p><span class="keyword">Quiero</span> tener un chat de soporte en línea,</p><p><span class="keyword">Para</span> resolver dudas rápidamente.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> cliente,</p><p><span class="keyword">Quiero</span> guardar mis productos favoritos,</p><p><span class="keyword">Para</span> comprarlos más tarde fácilmente.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> usuaria,</p><p><span class="keyword">Quiero</span> recibir alertas de disponibilidad,</p><p><span class="keyword">Para</span> no perder ofertas limitadas.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> desarrolladora,</p><p><span class="keyword">Quiero</span> integrar un sistema de pagos seguro,</p><p><span class="keyword">Para</span> proteger los datos de los clientes.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> administrador,</p><p><span class="keyword">Quiero</span> generar reportes de errores del sistema,</p><p><span class="keyword">Para</span> mejorar la plataforma continuamente.</p></div></div>
+  
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> cliente,</p><p><span class="keyword">Quiero</span> recibir confirmaciones de envío,</p><p><span class="keyword">Para</span> seguir mi pedido en tiempo real.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> usuario,</p><p><span class="keyword">Quiero</span> filtrar productos por popularidad,</p><p><span class="keyword">Para</span> ver los más comprados.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> visitante,</p><p><span class="keyword">Quiero</span> ver ofertas del día,</p><p><span class="keyword">Para</span> aprovechar descuentos rápidos.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> cliente,</p><p><span class="keyword">Quiero</span> recibir un historial de mis reseñas,</p><p><span class="keyword">Para</span> tener control de mi actividad.</p></div></div>
+                <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> visitante,</p><p><span class="keyword">Quiero</span> ver ofertas del día,</p><p><span class="keyword">Para</span> aprovechar descuentos rápidos.</p></div></div>
             </div>
         `;
 
@@ -240,7 +219,6 @@
             </div>
         `;
         
-        // Función para mostrar la sección correcta
         function showSection(section) {
             const mainContent = document.getElementById('main-content');
             if (section === 'user-stories') {
@@ -250,7 +228,6 @@
             }
         }
         
-        // Muestra las historias de usuario por defecto al cargar la página
         document.addEventListener('DOMContentLoaded', () => {
             showSection('user-stories');
         });
