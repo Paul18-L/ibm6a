@@ -157,7 +157,7 @@
                 <div class="card card-user-story"><div class="card-header"> Martinez carlos4</div><div class="card-body"><p><span class="keyword">Como</span> supervisor,</p><p><span class="keyword">Quiero</span> monitorear el historial de actividad,</p><p><span class="keyword">Para</span> detectar irregularidades a tiempo.</p></div></div>
                 <div class="card card-user-story"><div class="card-header">Martinez carlos5</div><div class="card-body"><p><span class="keyword">Como</span> administrador,</p><p><span class="keyword">Quiero</span> configurar promociones especiales,</p><p><span class="keyword">Para</span> aumentar las ventas de temporada.</p></div></div>
 
-                <!-- Los demas -->
+                <!-- Ortiz  Nicole -->
                 <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> visitante,</p><p><span class="keyword">Quiero</span> filtrar productos por precio,</p><p><span class="keyword">Para</span> encontrar opciones dentro de mi presupuesto.</p></div></div>
                 <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> cliente,</p><p><span class="keyword">Quiero</span> recibir recomendaciones personalizadas,</p><p><span class="keyword">Para</span> descubrir productos de mi interés.</p></div></div>
                 <div class="card card-user-story"><div class="card-header">Nombre</div><div class="card-body"><p><span class="keyword">Como</span> usuario,</p><p><span class="keyword">Quiero</span> ver las reseñas de otros usuarios,</p><p><span class="keyword">Para</span> tomar decisiones informadas antes de comprar.</p></div></div>
